@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <title>Планер</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="container">
+          <h1 class="title">Планировщик задач</h1>
+          <form class="form">
+            <input type="text" class="form-text" value="" />
+            <input
+              type="submit"
+              value="ADD"
+              class="form-btn"
+            />
+            <input type="checkbox" class="form-checkbox" /><label fo="urgent"
+              class="form-checkbox__label"
+              >Срочная задача</label
+            >
+          </form>
+        </div>
+      </section>
+      <section class="container">
+        <div class="container">
+          <h2 class="sectoin-title">Список задач</h2>
+          <div class="task-container">
+            <ul class="task-list">
+              <div class="notification">Задачи отсутствуют</div>
+            </ul>
+            <input type="submit" value="Очистить список" class="remove-btn" disabled>
+            </li>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
